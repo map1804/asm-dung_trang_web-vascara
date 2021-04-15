@@ -1,0 +1,39 @@
+.chi-dan ul li {
+    display: inline-block;
+    position: relative;
+}
+.chi-dan ul li a, .chi-dan ul li h1{
+    font-size: 16px;
+}
+.loc-sapxep{
+    margin-bottom: 30px;
+}
+.sapxep {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.boloc{
+    width: 80px;
+    border: 1px solid #f00;
+    color: #f00;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    position: relative;
+    float: left;
+}
+.xemthem-ct {
+    background-color: #FAC5C9;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (max-width:767px){
+    .chi-dan ul,.loc-sapxep {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.wrapinner {
+    margin: 0 auto;
+}
+ul.login {
+    float: left;
+    margin: 10px;
+    margin-left: 70px;
+}
+ul.login > li{
+    display: inline-block;
+}
+.giohang{
+    margin-top: 4px;
+}
+.giohang img{
+    width: 29px;
+}
+a {
+    text-decoration: none;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+.row img{
+    max-width: 100%;
+}
+
+.tieude{
+    margin-top: 20px;
+    color:#F15B67 ;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.boxnew img{
+    width: 54px;
+}
+.mt{
+    margin-top: 30px;
+}
+.phantram{
+    float: left;
+    width: 58px;
+    background-color: #F15B67;
+    color:white !important;
+    text-align: center;
+}
+
+.boximg{
+    position: relative;
+}
+.hethang{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 55%;
+    height: 25px;
+    text-align: center;
+    border: 0.5px #F15B67 solid;
+    color:#F15B67;
+}
+.lienhe{
+    background-color: #F4F4F4;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+.menu{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ul.nav > li{
+    float: left;
+}
+ul.nav li a{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+ul.nav li ul{
+    display: none;
+    position: absolute;
+    z-index: 44;
+    background-color: white;
+    padding: 0px;
+}
+ul.nav li ul li{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: normal;
+    color:black;
+}
+ul.nav li:hover > a{
+    border-bottom: 2px #F15B67 solid;
+    color: #F15B67;
+}
+
+ul.nav li:hover > ul{
+    display: block;
+}
+.khuyenmai{
+    text-align: center;
+    background-color: #F15B67;
+    color: white;
+    padding: 20px 0;
+}
+.khuyenmai span{
+    font-weight: bold;
+} 
+.box1{
+    float: left;
+    width: 20%;
+}
+.box1 img{
+    width: 200px;
+}
+.box2{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.box2 input{
+    width: 100%;
+    border: 1px #cccccc solid;
+    border-radius: 25px;
+    padding: 12px 35px 10px;
+    font-size: 18px;
+}
+.box2 .fa-search {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    font-size: 20px;
+    color: #CCC;
+}
+.box3{
+    float: right;
+    width: 30%;
+}
+.fa-facebook-square:hover{
+    color: #4267B2;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: #F15B67;
+}
+.menuft li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.menuft i{
+    font-size: 24px;
+    color: #AAAAAA;
+}
+@media screen and (min-width:768px){
+    body {
+        max-width: 100%;
+    }
+    .header {
+        min-width: 1160px;
+        overflow: hidden;
+        border-bottom: 1px solid #cccccc;
+    }
+    .banner,.lienhe {
+        min-width: 1160px;
+    }
+    .boxcenter{
+        margin: 0 auto;
+        width: 1160px;
+    }
+    .only-sp {
+        display: none;
+    }
+    .mr-pc{
+        margin-right: 2%;
+    }
+    .text {
+        min-height: 120px;
+    }
+    .text2 {
+        margin-bottom: 10px;
+    }
+    .col-4{
+        float: left;
+        width: 23.5%;
+    }
+    .col-4 a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        display: block;
+    }
+    .col-4 a span{
+        color: red;
+        font-size: 20px;
+    }
+    .col-4 a img{
+        padding: 1px;
+    }
+    .col-4 a:hover img{
+        border: 1px #F15B67 solid;
+        padding: 0;
+    }
+    .mb-pc{
+        margin-bottom: 80px;
+    }
+    .mb-pc1{
+        margin-bottom: 2%;
+    }
+    .giamgia{
+        float: left;
+        width: calc(45% - 20px);
+        color:red;
+        font-size: 20px;
+    }
+    .giagoc{
+        float: left;
+        width: 55%;
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+    .thongtin{
+        min-width: 1160px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .only-pc {
+        display: none;
+    }
+    .h-328 {
+        height: 328px;
+    }
+    .col-sp-12 {
+        width: 100%;
+    }
+    .header-sp {
+        padding: 20px 10px;
+        background: #fff;
+        overflow: hidden;
+        float: left;
+    }
+    .menu-inner {
+        float: left;
+        width: 40px;
+        position: relative;
+        top: -15px;
+    }
+    .menu-inner .nav .btn-nav {
+        position: relative;
+    }
+    .menu-inner .nav .btn-nav span {
+        
+        border-bottom: 3px solid #cccccc;
+        width: 30px;
+        height: 2px;
+        border-radius: 4px;
+        position: absolute;
+        top: 15px;
+    }
+    .menu-inner .nav .btn-nav span::before {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #cccccc;
+        width: 30px;
+        height: 2px;
+        border-radius: 4px;
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    .menu-inner .nav .btn-nav span::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #cccccc;
+        width: 30px;
+        height: 2px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -20px;
+    }
+    .logo {
+        width: 200px;
+        float: left;
+        margin-left: 50px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .tkiem-giohang {
+        float: left;
+    }
+    .tkiem-giohang ul li {
+        display: inline-block;
+    }
+    .timkiem img{
+        width: 20px;
+    }
+    .giohang img {
+        width: 23px;
+    }
+    .col-sp-6 {
+        width: 43%;
+        padding: 0 10px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .col-sp-6 a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        display: block;
+        font-size: 12px;
+    }
+    .col-sp-6 a span{
+        color: red;
+        font-size: 20px;
+    }
+    
+    .col-sp-6 a img{
+        padding: 1px;
+    }
+    .col-sp-6 a:hover img{
+        border: 1px #F15B67 solid;
+        padding: 0;
+    }
+    .text {
+        min-height: 125px;
+    }
+    .text2 {
+        min-height: 150px;
+    }
+    .giamgia {
+        width: 50%;
+        font-size: 14px;
+        color:red;
+        float: left;
+    }
+    .giagoc {
+        width: 50%;
+        float: left;
+        font-size: 14px;
+        text-align: right;
+        text-decoration: line-through;
+    }
+    .tieude {
+        font-size: 24px;
+    }
+    .hethang {
+        font-size: 13px;
+        width: 90%;
+        line-height: 1;
+        height: auto;
+        padding: 2px 0;
+    }
+    .thongtin{
+        padding: 0 10px;
+        margin: 0;
+    }
+}
